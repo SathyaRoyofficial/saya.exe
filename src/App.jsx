@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import ProfilePanel from './components/ProfilePanel';
 import ProjectCard from './components/ProjectCard';
 import Footer from './components/Footer';
+import AdBanner from './components/AdBanner';
 
 // Dummy Data
 const PROJECTS = [
@@ -87,6 +88,9 @@ function App() {
           ))}
         </div>
 
+        {/* Native Banner Container */}
+        <div id="container-4f85cc1b04ea4a0b8a229b2f99882e4a" style={{ marginBottom: '40px' }}></div>
+
         {/* Content */}
         {isLoading ? (
           <div className="flex-center" style={{ height: '300px', flexDirection: 'column', gap: '20px' }}>
@@ -126,6 +130,7 @@ function App() {
 
       </main>
 
+      <AdBanner />
       <Footer />
     </div>
   );
