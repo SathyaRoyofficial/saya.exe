@@ -9,11 +9,11 @@ import AdBanner from './components/AdBanner';
 const PROJECTS = [
   {
     id: 1,
-    name: "Bubu Dudu Proposal",
-    image: "/assets/bubu-dudu.png",
-    caption: "Propose your loved one",
+    name: "Love Stocks Market",
+    image: "/assets/love-stocks.png",
+    caption: "Love made stocks",
     tag: "Manual",
-    url: "https://bubu-dudu-red.vercel.app/"
+    url: "https://love-stock-market.vercel.app/"
   }
 ];
 
